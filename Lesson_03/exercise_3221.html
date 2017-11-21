@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+	<style>
+		div {
+			width: 50px;
+			height: 50px;
+			background: #ef8913;
+			border-radius: 50%;
+		}
+	</style>
+	</head>
+
+	<body>
+		<button id='left' type="button">&laquo</button>
+		<button id='right' type="button">&raquo</button>
+		<div style="position:relative"></div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+			$(function() {
+			  $("#right").on('click', function(e) {
+				$("div").animate({left:"+=50px"});
+			  });
+			});
+			$(function() {
+			  $("#left").on('click', function(e) {
+				$("div").animate({left:"-=50px"});
+			  });
+			});
+		</script>
+	</body>
+</html>
