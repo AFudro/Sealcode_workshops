@@ -1,0 +1,39 @@
+{
+  "songs": [
+    {
+      "title": "title1",
+      "arist": "arist1",
+      "genre": "genre1",
+	  "album": "album1",
+	  "year": "year1"
+    },
+	    {
+      "title": "title2",
+      "arist": "arist2",
+      "genre": "genre2",
+	  "album": "album2",
+	  "year": "year2"
+    },
+	    {
+      "title": "title3",
+      "arist": "arist3",
+      "genre": "genre3",
+	  "album": "album3",
+	  "year": "year3"
+    },
+	    {
+      "title": "title4",
+      "arist": "arist4",
+      "genre": "genre4",
+	  "album": "album4",
+	  "year": "year4"
+    },
+	    {
+      "title": "title5",
+      "arist": "arist5",
+      "genre": "genre5",
+	  "album": "album5",
+	  "year": "year5"
+    }
+  ]
+}
